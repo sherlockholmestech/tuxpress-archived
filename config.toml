@@ -2,7 +2,8 @@ baseURL = 'https://tuxpress.netlify.app'
 languageCode = 'en-us'
 title = 'The Tux Press'
 theme = "terminal"
-
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
