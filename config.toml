@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://tuxpress.netlify.app'
 languageCode = 'en-us'
 title = 'The Tux Press'
 theme = "terminal"
