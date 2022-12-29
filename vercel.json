@@ -1,0 +1,38 @@
+{
+	"build": {
+	  "env": {
+	  "HUGO_VERSION": "0.109.0"
+	  }
+	},
+	"headers": [
+	  {
+		"source": "/(.*)",
+		"headers":[
+		  {
+			"key": "Strict-Transport-Security",
+			"value": "max-age=31536000; includeSubDomains; preload"
+		  },
+		  {
+			"key": "X-Frame-Options",
+			"value": "SAMEORIGIN"
+		  },
+		  {
+			"key": "Referrer-Policy",
+			"value": "strict-origin"
+		  },
+		  {
+			"key": "X-Content-Type-Options",
+			"value": "nosniff"
+		  },
+		  {
+			"key": "X-Powered-By",
+			"value": "Hugo"
+		  },
+		  {
+			"key": "Permissions-Policy",
+			"value": "accelerometer=(), ambient-light-sensor=*, autoplay=(self), battery=(self), camera=(), cross-origin-isolated=*, fullscreen=*, geolocation=(self), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=()"
+		  }
+		]
+	  }
+	]
+  }
