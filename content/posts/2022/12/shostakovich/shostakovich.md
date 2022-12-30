@@ -21,3 +21,4 @@ Shostakovich was born in 1906 in Russia, just in time for the Russian Revolution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MupXrzqYZpA?start=78&end=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+However, after the revolution, the authorities became less and less tolarant of western culture, and the offical art form of the Soviet Union was announced: Socialist Realism.  This limitation on artistic expression forced artists and composers to create music deemed “suitable for the party” and all content published had to be approved by the authorities.  This harsh limitation caused Shostakovich to hide double meaning in many of his famous pieces.
