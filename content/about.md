@@ -19,3 +19,8 @@ We support both email and rss.
 
 ## Email
 
+You can subscribe to our email newsletter [here](https://tinyletter.com/tuxpress).
+
+## RSS
+
+RSS newsletters are avaliable [here](https://tuxpress.tk/index.xml).
