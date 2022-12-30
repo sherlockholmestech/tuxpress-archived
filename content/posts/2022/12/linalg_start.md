@@ -2,7 +2,8 @@
 title = "Linear Algebra: the beginning"
 author = "Tux"
 authorTwitter = "" #do not include @
-cover = "" tags = ["Math"]
+cover = ""
+tags = ["Math"]
 keywords = ["Linear Algebra"]
 description = "It's very funny"
 showFullContent = false
