@@ -28,3 +28,7 @@ However, after the revolution, the authorities became less and less tolarant of 
 Jumping to WWII, it was just the end of the Battle of Lenningrad, and the people of the Soviet Union were feeling particularly patriotic.  Hence, the 7th symphony was written.  You can listen to the entire thing here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kwqZRhPXElQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This piece, which was approved by the authorities, became propaganda gold for the Soviet Union.  The listeners, however, thought that this what not only a critisism of the Nazi totalitarian government, it was also about any type of totalitarian government in the world, including the Soviet authorities.
+
+# 9th Symphony
