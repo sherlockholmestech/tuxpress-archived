@@ -107,3 +107,5 @@ Late into his life, his string quartets and pieces became quite bleak, possibly 
 # Conclusion
 
 Well, there you have it!  My summary of Shostakovich and the points where he is great.  His abilities to convey double meaning and ablity to generate content in such a stict world makes him an indeed extraordinary composer.  Compared to those from the west, yes, he may not have done as much experimentation as them, but this puts him at a disadvantage, considering his political situation.  I hope you enjoyed this post, and remember to [subscribe to my email or RSS newletter!](/subscribe)!
+
+*DISCLAIMER: The opinions expressed in this article are solely that of the author’s, and do not represent the opinions of any organisation, affiliated or otherwise. While care has been taken to ensure factual accuracy, statements being fully accurate and impartial is not guaranteed.*
