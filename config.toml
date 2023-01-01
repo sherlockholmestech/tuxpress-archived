@@ -39,7 +39,7 @@ theme = "terminal"
   # favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  updatedDatePrefix = "Updated"
 
   # set all headings to their default size (depending on browser settings)
   # oneHeadingSize = true # default
@@ -82,15 +82,10 @@ theme = "terminal"
         url = "/about"
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
-        weight = 2
-      [[languages.en.menu.main]]
         identifier = "Tags"
         name = "Tags"
         url = "/tags"
-        weight = 3
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "sub"
         name = "Subscribe"
