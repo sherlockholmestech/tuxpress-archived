@@ -72,7 +72,7 @@ theme = "terminal"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "The Tux Press"
+      logoText = ">_ The Tux Press"
       logoHomeLink = "/"
 
     [languages.en.menu]
