@@ -45,7 +45,7 @@ However, their claims are invalid.  If you take a look at the changes made to Ma
 
 >When a malicious extension sneaks through the security review process, it is usually interested in simply observing the conversation between your browser and whatever websites you visit. The malicious activity happens elsewhere, after the data has already been read. A more thorough review process could improve security, but Chrome hasn’t said they’ll do that. Instead, their solution is to restrict capabilities for all extensions.
 
-Testing has also shown that [performance is **increased** when adblockers](ttps://kevin.borgolte.me/files/pdf/www2020-privacy-extensions.pdf ), making the 3rd point invalid.
+Testing has also shown that [performance of the browsers **increased** when adblockers were enabled](ttps://kevin.borgolte.me/files/pdf/www2020-privacy-extensions.pdf ), making the 3rd point invalid.
 
 # What can I do?
 
