@@ -1,0 +1,29 @@
+---
+import './global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>TuxPress</title>
+	</head>
+	<body>
+		<div class="min-h-screen bg-base">
+			<div class="flex justify-center">
+				<div class="w-11/12 md:w-7/12">
+					<h1 class="pt-5"><a href="/" class="text-text">{'>'}_ The Tux Press</a></h1>
+					<Header />
+					<h1 class="pt-5">What is this?</h1>
+					<p>This is a blog about music, programming, math (and maybe) gaming.</p>
+					<h1>Who made this?</h1>
+					<p>Me (Sherlock Holmes) and Tux both contribute to the content of this blog.</p>
+					<Footer />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

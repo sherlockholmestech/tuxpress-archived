@@ -1,0 +1,20 @@
+---
+const { title, date, tags, author, description, link } = Astro.props;
+let tagString;
+for (let i = 0; i < tags.length; i++) {
+	if (i === 0) {
+		tagString = '#' + tags[i];
+	} else {
+		tagString = tagString + " " + '#' + tags[i];
+	}
+}
+---
+
+<div class="border-b-2 border-accent pt-5">
+	<h2 class="pb-1"><a href={link} class="text-text">{title}</a></h2>
+	<div class="flex flex-row justify-start">
+		<p class="pb-1">{date} :: {author}</p>
+	</div>
+	<p class="text-overlay2 pb-5"> {tagString}</p>
+	<p class="pb-5">{description}</p>
+</div>

@@ -1,0 +1,13 @@
+---
+const props = Astro.props;
+---
+
+<blockquote {...props} class="bg-base">
+	<div class="border-2 border-accent">
+		<div class="pl-4 pr-4 pt-5 pb-5">
+			<span class="">
+				<slot />
+			</span>
+		</div>
+	</div>
+</blockquote>

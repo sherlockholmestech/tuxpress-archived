@@ -1,0 +1,34 @@
+---
+import Header from '../components/Header.astro';
+import BlogPost from '../components/BlogPost.astro';
+import Footer from '../components/Footer.astro';
+var allPosts = await Astro.glob('../pages/posts/**/**/*.mdx');
+allPosts.sort((a, b) => {
+	return new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf();
+});
+import './global.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>TuxPress</title>
+	</head>
+	<body>
+		<div class="min-h-screen bg-base">
+			<div class="flex justify-center">
+				<div class="w-11/12 md:w-7/12">
+					<h1 class="pt-5"><a href="/" class="text-text">{'>'}_ The Tux Press</a></h1>
+					<Header />
+					{allPosts.map((post) => (
+						<BlogPost title={post.frontmatter.title} date={post.frontmatter.date} tags={post.frontmatter.tags} author={post.frontmatter.author} description={post.frontmatter.description} link={post.frontmatter.link} />
+					))}
+					<Footer />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
