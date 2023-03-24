@@ -26,7 +26,7 @@
 
 <div class="flex flex-row">
 	<p class="pr-3">Search:</p>
-	<input bind:value={searchQuery} on:input={search} class="bg-base outline outline-2 outline-accent text-text font-mono min-w-full h-11 pl-2">
+	<input bind:value={searchQuery} on:input={search} class="bg-base outline outline-2 outline-accent text-text font-mono h-11 pl-2" style="width: 100%;">
 </div>
 
 {#each results as post}
